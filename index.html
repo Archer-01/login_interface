@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- CSSS -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<h1>Login Interface</h1>
-<form action="">
-    <input type="text" placeholder="Username or email address">
-    <input type="password" placeholder="Password">
-    <a href="#">Forgot Password ?</a>
-    <input type="submit" value="Login">
-    <a href="#">Create new account</a>
-</form>
+    <main id="login-main">
+        <h1 id="login-header">Login Interface</h1>
+        <form id="login-form" action="">
+            <input class="login-form-elem login-form-input" type="text" placeholder="Username or email address">
+            <input class="login-form-elem login-form-input" type="password" placeholder="Password">
+            <input class="login-form-elem login-btn" type="submit" value="Login">
+            <div id="login-link-container">
+                <a class="login-form-elem login-link" href="#">Forgot Password ?</a>
+                <a class="login-form-elem login-link" href="#">Create new account</a>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
