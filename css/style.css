@@ -12,3 +12,7 @@ body {
     background-image: url("../assets/login-background.gif");
     color: white;
 }
+
+.sr-only {
+	display: none;
+}
